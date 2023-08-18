@@ -2,7 +2,10 @@
   "xsappname": "xs-multi-tenant-sample-app",
   "tenant-mode": "shared",
   "oauth2-configuration": {
-    "credential-types": ["instance-secret"]
+    "credential-types": ["instance-secret"],
+    "redirect-uris": [
+      "https://route-prefix-YOUR_SUBDOMAIN.cfapps.YOUR_REGION.hana.ondemand.com"
+    ]
   },
   "scopes": [
     {
